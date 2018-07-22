@@ -1,0 +1,52 @@
+[86.943626404] 2018-07-21 19:56:47,320 - INFO - launcher: Starting sanity checks
+[87.945699692] 2018-07-21 19:56:47,321 - INFO - launcher: Checking for Python 3.5+
+[87.945699692] 2018-07-21 19:56:47,321 - INFO - launcher: Checking console encoding
+[88.942527771] 2018-07-21 19:56:47,322 - INFO - launcher: Setting console encoding to UTF-8
+[88.942527771] 2018-07-21 19:56:47,322 - INFO - launcher: Ensuring we're in the right environment
+[90.942621231] 2018-07-21 19:56:47,324 - INFO - launcher: Adding local bins/ folder to path
+[91.942787170] 2018-07-21 19:56:47,325 - INFO - launcher: Required checks passed.
+[92.941999435] 2018-07-21 19:56:47,326 - INFO - launcher: Optional checks passed.
+[93.939781189] 2018-07-21 19:56:47,327 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[4.3904752731323242] 2018-07-21 19:56:51,624 - WARNING - musicbot.config | In config.py::MainThread(15500), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[4.3914747238159180] 2018-07-21 19:56:51,625 - INFO - musicbot.config | In config.py::MainThread(15500), line 123 in run_checks: Using i18n: config/i18n/en.json
+[4.4174585342407227] 2018-07-21 19:56:51,651 - DEBUG - musicbot.json | In json.py::MainThread(15500), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[4.8901665210723877] 2018-07-21 19:56:52,124 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 227 in _setup_logging: Set logging level to INFO
+[4.8901665210723877] 2018-07-21 19:56:52,124 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 84 in __init__: Starting MusicBot 1.9.7
+[4.8911652565002441] 2018-07-21 19:56:52,125 - WARNING - musicbot.bot | In bot.py::MainThread(15500), line 87 in __init__: Autoplaylist is empty, disabling.
+[7.6194887161254883] 2018-07-21 19:56:54,853 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 1074 in on_ready: Connection established, ready to go.
+[7.6204893589019775] 2018-07-21 19:56:54,854 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 339 in _cache_app_info: Caching app info
+[7.6814522743225098] 2018-07-21 19:56:54,915 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[7.6844487190246582] 2018-07-21 19:56:54,918 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 905 in _scheck_server_permissions: Checking server permissions
+[7.6844487190246582] 2018-07-21 19:56:54,918 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[7.6844487190246582] 2018-07-21 19:56:54,918 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 913 in _scheck_configs: Validating config
+[7.6844487190246582] 2018-07-21 19:56:54,918 - DEBUG - musicbot.config | In config.py::MainThread(15500), line 212 in async_validate: Validating options...
+[7.6854488849639893] 2018-07-21 19:56:54,919 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 916 in _scheck_configs: Validating permissions config
+[7.6854488849639893] 2018-07-21 19:56:54,919 - DEBUG - musicbot.permissions | In permissions.py::MainThread(15500), line 64 in async_validate: Validating permissions...
+[7.6854488849639893] 2018-07-21 19:56:54,919 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 1091 in on_ready: Connected: 470341207285825537/Official No Music#5225
+[7.6864466667175293] 2018-07-21 19:56:54,920 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 1099 in on_ready: Owner:     270351945099771934/RDP#4706
+
+[7.6874501705169678] 2018-07-21 19:56:54,921 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 1102 in on_ready: Server List:
+[7.6884455680847168] 2018-07-21 19:56:54,922 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 1105 in on_ready:  - Official No Server
+[7.6894462108612061] 2018-07-21 19:56:54,923 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 1151 in on_ready: Not bound to any text channels
+[7.6894462108612061] 2018-07-21 19:56:54,923 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 1177 in on_ready: Not autojoining any voice channels
+[7.6904447078704834] 2018-07-21 19:56:54,924 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 266 in _join_startup_channels: Found resumable voice channel Official No Server/🔊Voice Chat🔊
+[7.6914458274841309] 2018-07-21 19:56:54,925 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 272 in _join_startup_channels: Found owner in "🔊Voice Chat🔊"
+[7.6924443244934082] 2018-07-21 19:56:54,926 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 281 in _join_startup_channels: Attempting to join Official No Server/🔊Voice Chat🔊
+[7.6934444904327393] 2018-07-21 19:56:54,927 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 452 in get_voice_client: Connection attempt 1 to 🔊Voice Chat🔊
+[7.6934444904327393] 2018-07-21 19:56:54,927 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15500), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[7.6944420337677002] 2018-07-21 19:56:54,928 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15500), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[7.6954438686370850] 2018-07-21 19:56:54,929 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15500), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[7.7614030838012695] 2018-07-21 19:56:54,995 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 2926 in on_voice_state_update: Resumed voice connection to Official No Server/🔊Voice Chat🔊
+[7.7614030838012695] 2018-07-21 19:56:54,995 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15500), line 2938 in on_voice_state_update: Voice state update for 470341207285825537/Official No Music#5225 on Official No Server/🔊Voice Chat🔊 -> [RESUME, CONNECT]
+[7.7624032497406006] 2018-07-21 19:56:54,996 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15500), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[7.7753937244415283] 2018-07-21 19:56:55,009 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15500), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[8.1151843070983887] 2018-07-21 19:56:55,349 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15500), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[8.1161854267120361] 2018-07-21 19:56:55,350 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 478 in get_voice_client: Connected in 0.4s
+[8.1161854267120361] 2018-07-21 19:56:55,350 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 479 in get_voice_client: Connected to Official No Server/🔊Voice Chat🔊
+[8.1171844005584717] 2018-07-21 19:56:55,351 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 849 in deserialize_queue: Deserializing queue for 462339036791701514
+[8.6008880138397217] 2018-07-21 19:56:55,834 - DEBUG - musicbot.bot | In bot.py::MainThread(15500), line 570 in get_player: Created player via deserialization for server 462339036791701514 with 0 entries
+[8.6008880138397217] 2018-07-21 19:56:55,834 - INFO - musicbot.bot | In bot.py::MainThread(15500), line 297 in _join_startup_channels: Joined Official No Server/🔊Voice Chat🔊
+[8.6028854846954346] 2018-07-21 19:56:55,836 - VOICEDEBUG - musicbot.player | In player.py::MainThread(15500), line 373 in websocket_check: Starting websocket check loop for Official No Server
